@@ -3,6 +3,8 @@ var assert = require('assert');
 var authCAS = require('../lib/auth-cas');
 var config = require('./test-config.json');
 
+
+
 it('Host must be specified', function() {
 	assert.throws(
 		() => {
